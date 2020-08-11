@@ -1,0 +1,4 @@
+name=Agastya, favgame=basketBall, grade=6, city=Austin
+name=Chaitra, favgame=basketBall, grade=6, city=Austin
+name=Aakash, favgame=basketBall, grade=6, city=Austin
+name=Kaushik, favgame=basketBall, grade=8, city=Chorlette
