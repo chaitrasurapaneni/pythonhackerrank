@@ -164,6 +164,7 @@
 #         if string[idx: idx+l2] == sub_string:
 #             counts = counts + 1
 #     return counts
+print("new line")
 #
 #
 # if __name__ == '__main__':
