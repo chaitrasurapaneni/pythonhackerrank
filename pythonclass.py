@@ -29,27 +29,27 @@
 #     printName("abc", "123")
 #     printName(lname="123", fname="abc")
 #     printName("abc")
-
-#def printFruitsList(fruits):
+#
+# def printFruitsList(fruits):
 #    fruits.add("new Fruit")
-#print(fruits)
-
-#def printFruitsTuple(*fruits):
+# print(fruits)
+#
+# def printFruitsTuple(*fruits):
 #     print(fruits)
-
-#def printAllNames(**names):
+#
+# def printAllNames(**names):
 #     print(f"First: {names['first']}, Middle: {names['middle']}, Last: {names['last']}")
-
-#def printAllNamesDict(names):
+#
+# def printAllNamesDict(names):
 #     print(f"First: {names['first']}, Middle: {names['middle']}, Last: {names['last']}")
-#printFruitsTuple("apple", "banana")
-#printFruitsList({"apple", "banana"})
-#printAllNames(first="Chaitra", last="Surapaneni", middle="S")
-#printAllNamesDict({"first": "Chaitra", "last": "Surapaneni", "middle": "S"})
-
-
-
-#def runnerUp(myArr):
+# printFruitsTuple("apple", "banana")
+# printFruitsList({"apple", "banana"})
+# printAllNames(first="Chaitra", last="Surapaneni", middle="S")
+# printAllNamesDict({"first": "Chaitra", "last": "Surapaneni", "middle": "S"})
+#
+#
+#
+# def runnerUp(myArr):
 #     newList = []
 #
 #     while myArr:
@@ -68,28 +68,28 @@
 #         return newList[0]
 #
 #
-# if __name__ == '__main__':
+#     if __name__ == '__main__':
 #     n = int(input("How many Numbers?: "))
 #     arr = list(map(int, input("Enter numbers: ").split()))
 #  x = runnerUp(arr)
 # print(f"Runner up score is : {runnerUp(arr)}")
-
-
-#def bubbleSortAlgorthim(bubble):
+#
+#
+# def bubbleSortAlgorthim(bubble):
 #    n = len(bubble)
-
+#
 #    for x in range(n - 1):
-
+#
 #        for j in range (0, n - x - 1):
-
+#
 #            if bubble[j] > bubble[j + 1]:
 #                bubble[j], bubble[j + 1] = bubble[j + 1], bubble[j]
-
-#bubble = list(map(int, input("Enter your number: ").split()))
-
-#bubbleSortAlgorthim(bubble)
-#print(f"sorted list is {bubble}")
-
+#
+# bubble = list(map(int, input("Enter your number: ").split()))
+#
+# bubbleSortAlgorthim(bubble)
+# print(f"sorted list is {bubble}")
+#
 # def parseLine(line):
 #     pairs = line.split(", ")
 #     myDictionary = {}
@@ -106,14 +106,14 @@
 # for line in lines:
 #     parseLine(line)
 #
-#print(myList)
-
+# print(myList)
+#
 # division hackerank
 # a = int(input("Enter Number a:"))
 # b = int(input("Enter Number b: "))
 # print(a//b)
 # print(a/b)
-
+#
 # def squareOf(num):
 #     return num * num
 #
@@ -123,7 +123,7 @@
 #
 # print(list1)
 # print(list2)
-
+#
 # myList = []
 # if __name__ == '__main__':
 #     for _ in range(int(input("How many: "))):
@@ -154,25 +154,25 @@
 #
 # for name in nameList:
 #     print(name)
-
-
+#
+#
 # def count_substring(string, sub_string):
 #     lN = len(string)
 #     l2 = len(sub_string)
-#     counts = 0
-#     for idx in range(lN - l2 + 1):
-#         if string[idx: idx+l2] == sub_string:
-#             counts = counts + 1
-#     return counts
-print("new line")
+# counts = 0
+# for idx in range(lN - l2 + 1):
+#     if string[idx: idx+l2] == sub_string:
+#         counts = counts + 1
 #
+#         return counts
+# #print("new line")
 #
 # if __name__ == '__main__':
-#     string = input().strip()
-#     sub_string = input().strip()
-#
-#     count = count_substring(string, sub_string)
-#     print(count)
+#       string = input().strip()
+#       sub_string = input().strip()
+# count = count_substring(string, sub_string)
+# print(count)
+
 
 
 
