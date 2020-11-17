@@ -173,6 +173,6 @@
 # count = count_substring(string, sub_string)
 # print(count)
 
-
+print(2**63 - 1)
 
 
